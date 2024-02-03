@@ -1,0 +1,229 @@
+
+.experience-page .title {
+    text-align: center;
+    margin-top: 1rem; /* Adjust top margin as needed */
+    margin-bottom: 2rem; /* Adjust bottom margin as needed for space between title and content */
+    text-decoration: underline; /* This will underline the title */
+  }
+  
+  .experience-page .section-container {
+    display: grid;
+    width:auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .experience-page .details-container {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 40px;
+    background: #fff;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .experience-page .details-container h2 {
+    text-decoration: underline; /* Underlines subtitles */
+    margin-bottom: 1rem; /* Space between subtitle and image */
+    text-align: center; /* Center the subtitle */
+  }
+  
+  .experience-page .details-container img {
+    display: block; /* Ensure the image is a block to take full width */
+    margin: 0 auto; /* Center the image */
+    padding-bottom: 1rem; /* Space between image and bullet points */
+  }
+  
+  .experience-page .details-container ul {
+    padding: 0;
+    list-style-position: inside; /* Position bullets inside to maintain justification */
+  }
+  
+  .experience-page .details-container ul li {
+    text-align: justify; /* Justify bullet points text */
+    margin-bottom: 0.5rem; /* Space between bullet points */
+  }
+  
+  .experience-page .details-container:hover {
+    transform: translateY(-5px); /* Slightly raise the card */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1); /* Enhance shadow */
+  }
+  
+  .back-to-home-btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Your theme color */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .back-to-home-btn:hover {
+    background-color: #0056b3; /* Darker theme color */
+    text-decoration: none; /* Ensures no underline appears */
+    cursor: pointer; /* Changes cursor to the pointer hand */
+  }
+  
+  /*Educaton Page*/
+  
+  .education-page .title {
+    text-align: center;
+    margin-top: 1rem; /* Adjust top margin as needed */
+    margin-bottom: 2rem; /* Adjust bottom margin as needed for space between title and content */
+    text-decoration: underline; /* This will underline the title */
+  }
+  
+  .education-page .section-container {
+    display: grid;
+    width:auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .education-page.details-container {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: auto;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 40px;
+    background: #fff;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .education-page .details-container h2 {
+    text-decoration: underline; /* Underlines subtitles */
+    margin-bottom: 1rem; /* Space between subtitle and image */
+    text-align: center; /* Center the subtitle */
+  }
+  
+  .education-page .details-container img {
+    width: 150px; /* or any other fixed size you prefer */
+    height: 200px; /* or any other fixed size you prefer */
+    object-fit: cover; /* This will cover the area without stretching the image */
+    border-radius: 10px; /* Optional: if you want rounded corners */
+    margin: 0 auto; /* Centers the image in the container */
+    display: block; /* Ensures the image is block level so margin auto works */
+  }
+  
+  .education-page .details-container ul {
+    padding: 0;
+    list-style-position: inside; /* Position bullets inside to maintain justification */
+  }
+  
+  .education-page .details-container ul li {
+    text-align: justify; /* Justify bullet points text */
+    margin-bottom: 0.5rem; /* Space between bullet points */
+  }
+  
+  .education-page .details-container:hover {
+    transform: translateY(-5px); /* Slightly raise the card */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1); /* Enhance shadow */
+  }
+  
+  
+  .education-page .scroll-down-btn {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #0056b3; /* Adjust the color to fit your theme */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: auto;
+    position: relative;
+  }
+  
+  .education-page .scroll-down-btn:hover {
+    background-color: #2f4156; /* A darker shade for hover effect */
+    cursor: pointer;
+  }
+  
+  /* Style for the subtitle */
+  .education-page .subtitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+    text-decoration: underline;
+  }
+  
+  .education-page .back-to-home-btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Your theme color */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    width: auto;
+    position: relative;
+  }
+  
+  .education-page .back-to-home-btn:hover {
+    background-color: #0056b3; /* Darker theme color */
+    text-decoration: none; /* Ensures no underline appears */
+    cursor: pointer; /* Changes cursor to the pointer hand */
+  }
+  
+   #certifications .details-container img {
+    width: 150px; /* or any other fixed size you prefer */
+    height: 150px; /* or any other fixed size you prefer */
+    object-fit: cover; /* This will cover the area without stretching the image */
+    border-radius: 10px; /* Optional: if you want rounded corners */
+    margin: 0 auto; /* Centers the image in the container */
+    display: block; /* Ensures the image is block level so margin auto works */
+  }
+  
+  #certifications .details-container {
+    position: relative; /* Needed to position the link absolute within the container */
+    padding-bottom: 50px; /* Adjust space for the button */
+  }
+  
+  #certifications .certificate-link {
+    position: absolute;
+    bottom: 10px; /* Adjust distance from bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center the button */
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  #certifications .certificate-link:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Space after the degrees section for scroll to certifications button */
+  #degrees + .scroll-down-btn {
+    margin-top: 40px; /* Adjust the space as needed */
+  }
+  
+  /* Space after the certifications section for back to home button */
+  #certifications + .back-to-home-btn {
+    margin-top: 40px; /* Adjust the space as needed */
+  }
+  
+  /* Ensures buttons are not overlapped by other elements */
+  .education-page .button-container {
+    clear: both;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px; /* Adjust the space as needed */
+  }

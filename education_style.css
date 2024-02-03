@@ -1,0 +1,168 @@
+
+/* CSS for the Education and Certifications page */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body.education-page {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f4f4f4; /* Light grey background */
+    background-image: url('./assets/education-bg2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a,
+.btn {
+    transition: all 300ms ease;
+  }
+  
+.title {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.details-container {
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px; /* Fixed width for desktop */
+    background-color: #fff; /* White background for the cards */
+    margin-bottom: 20px; /* Space for the scroll button */
+}
+
+/* Underline the titles within .details-container */
+.details-container h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.details-container img {
+    display:block;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* Align the certificate link button at the bottom of the container */
+.button-container {
+    position: relative; /* Context for absolute positioning */
+    padding-bottom: 60px; /* Extra space for the button */
+}
+
+.scroll-down-btn {
+    position: absolute;
+    bottom: 20px; /* Positioned at the bottom of the container */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+/* #certifications .details-container {
+    position: relative; /* Context for absolute positioning */
+    /* padding-bottom: 60px; /* Extra space for the button */
+/* }
+#certifications .certification-link {
+    position: absolute;
+    bottom: 20px; /* Positioned at the bottom of the container */
+    /* left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+/* } */ 
+
+.certification-link, .scroll-down-btn, .back-to-home-btn {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    gap: 1rem;
+    border:#000;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    flex: 1; /* Each button will take equal space */
+    text-align: center; /* Center the text inside the buttons */
+}
+
+.scroll-down-btn:hover, .back-to-home-btn:hover {
+    background-color: #555; /* Darker on hover */
+}
+
+/* Center the 'Back to Home' and 'Scroll to Certificates' buttons within a rounded rectangle */
+/* .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 2px solid #000;
+    border-radius: 20px; /* Rounded corners */
+    /* margin-top: 20px; /* Space from the content above */
+/* } */
+
+/* .btn-container .scroll-down,
+.btn-container .back-to-home {
+    flex: 1; /* Each button will take equal space */
+    /* text-align: center; /* Center the text inside the buttons */
+/* } */
+
+#certifications .details-container {
+    position: relative; /* Context for absolute positioning */
+    padding-bottom: 60px; /* Extra space for the button */
+}
+
+#certifications .certificate-link {
+    position: absolute;
+    bottom: 20px; /* Positioned at the bottom of the container */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center; /* Center the text inside the buttons */
+    cursor: pointer;
+    margin-top: 20px; /* Adjust or remove if not needed */
+}
+
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .section-container {
+        flex-direction: column;
+    }
+    .details-container {
+        width: auto; /* Full width on mobile */
+        margin: 10px; /* Smaller margin on mobile */
+    }
+}
+
+@media (max-width: 600px) {
+    /* ... other responsive styles ... */
+    #certifications .details-container {
+        padding-bottom: 40px; /* Adjust padding-bottom if necessary for mobile */
+    }
+}
