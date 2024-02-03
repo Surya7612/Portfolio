@@ -24,12 +24,14 @@ body.experience-page {
 }
 
 .title {
+    font-size: 30px;
     text-align: center;
     margin-top: 20px;
     text-decoration: underline;
 }
 
 .details-container h2 {
+    text-align: center;  
     text-decoration: underline;
 }
 .section-container {
@@ -41,6 +43,7 @@ body.experience-page {
 }
 
 .details-container {
+    text-align: left;
     border: 2px solid #000;
     border-radius: 20px;
     padding: 20px;

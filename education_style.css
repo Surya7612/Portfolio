@@ -12,9 +12,9 @@ body.education-page {
     flex-direction: column;
     background-color: #f4f4f4; /* Light grey background */
     background-image: url('./assets/education-bg2.png');
-    background-size: cover;
+    background-size:auto;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 html {
     scroll-behavior: smooth;
@@ -26,6 +26,8 @@ a,
   }
   
 .title {
+    font-size: 30px;
+    text-shadow: #f4f4f4;
     text-align: center;
     margin-top: 20px;
     text-decoration: underline;
