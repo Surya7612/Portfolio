@@ -380,8 +380,26 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
+                src="./assets/textsum.png"
+                alt="Project 1: Text_Summarizer"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">SummarizeMaster</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Surya7612/Text_Summarizer', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
                 src="./assets/mqc.png"
-                alt="Project 1"
+                alt="Project 2: MQC"
                 class="project-img"
               />
             </div>
@@ -389,7 +407,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/itsshuchimehta/CS562-project', '_blank')"
+                onclick="window.open('https://github.com/Surya7612/CS562-project', '_blank')"
               >
                 Github
               </button>
@@ -399,7 +417,7 @@
             <div class="article-container">
               <img
                 src="./assets/critiQs.png"
-                alt="Project 2"
+                alt="Project 3: critiQs"
                 class="project-img"
               />
             </div>
@@ -407,7 +425,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/adiagarwalrock/critiQs', '_blank')"
+                onclick="window.open('https://github.com/Surya7612/critiQs', '_blank')"
               >
                 Github
               </button>
@@ -417,7 +435,7 @@
             <div class="article-container">
               <img
                 src="./assets/retinaspec.png"
-                alt="Project 3"
+                alt="Project 4: RetinaSpec"
                 class="project-img"
               />
             </div>
@@ -478,3 +496,27 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDGGud_6sWfoLyw_muKCb9xA8h3o7KlCXo",
+    authDomain: "surya-nediyadeth-portfolio.firebaseapp.com",
+    projectId: "surya-nediyadeth-portfolio",
+    storageBucket: "surya-nediyadeth-portfolio.appspot.com",
+    messagingSenderId: "791258546791",
+    appId: "1:791258546791:web:6c0716d389f0945bf48ac2",
+    measurementId: "G-JBDWS4F5HP"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
