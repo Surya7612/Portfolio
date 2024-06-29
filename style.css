@@ -197,6 +197,18 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nickname {
+  font-size: 0.8em;
+  color: gray;
+  margin-left: 10px;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 #socials-container {
